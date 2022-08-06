@@ -8,6 +8,5 @@ def player_choice(board):
             position = int(input('Choose a position: (1-9) '))
         except ValueError:
             print('Wrong input! enter number of the cell between 1-9: ')
-            continue
         
         return position
